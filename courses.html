@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+</head>
+<body align="center" bgcolor="lightblue">
+ <h1>Search Courses</h1>  
+ <div>
+ <form action="">
+    <label for="Class 9th"> <input type="radio" value="Class 9th" name="Class" id="Class 9th"> Class 9th </label> 
+    <label for="Class 10th"> <input type="radio" value="Class 10th" name="Class" id="Class 10th"> Class 10th</label> 
+    <label for="Class 11th"> <input type="radio" value="Class 11th" name="Class" id="Class 11th"> Class 11th</label> 
+    <label for="Class 12th"> <input type="radio" value="Class 12th" name="Class" id="Class 12th"> Class 12th</label> <br><br>
+    <select name="Boards" id="Boards">
+        <option value="CBSE"> CBSE </option>
+        <option value="ICSE"> ICSE </option>
+        <option value="UP Board"> UP Board </option>
+    </select>
+    <select name="Sujects" id="Subjects">
+     <option value="Physics"> Physics </option>
+     <option value="Chemistry"> Chemistry </option>
+     <option value="Maths"> Maths </option>
+     <option value="English"> English </option>
+     <option value="Hindi"> Hindi </option>
+     <option value="Social Studies"> Social Studies </option>
+     <option value="All Subjects">All Subjects</option>
+    </select> <br><br>
+    <!--label helps in making selection on clicking on words or box other input tag also applicable-->
+    <!--for label working id must be same exactly its case sensetive-->
+    <label for="Notes"><input type="checkbox" value="Notes" name="" id="Notes"> Notes </label>
+    <label for="videos"><input type="checkbox" value="Videos" name=""id="videos"> Videos</label>
+    <label for="syllabus"><input type="checkbox" value="Syllabus" name=""id="syllabus"> Syllabus</label>
+    <label for="pyq"><input type="checkbox" value="Previous Year Questions" name=""id="pyq"> Previous Year Questions </label> <br><br>
+    <input type="button" value="Find">
+    <input type="reset" value="Reset">
+</form>
+</div>
+</body>
+</html>
