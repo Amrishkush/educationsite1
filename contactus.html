@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <table  align="center" cellspacing="100">
+        <tr>
+            <td>
+                <h1>Contact Info</h1> <br>
+                <strong><em> <pre>📍    Padrauna,Kushinagar
+         Uttar Pradesh
+            274304</pre> </em></strong>
+                       <strong><em><pre>📱    7905319717</pre></em></strong>
+                       <strong><em> <pre>📨   armishkush@gmail.com</pre></em></strong> <br>
+                       <pre>  <img src="Images\Instalogo.png" width="30"alt="Instagram Link">    <img src="Images\twitterlogo.png" width="30"alt="Twitter Link">     <img src="Images\fblogo.webp" width="30"alt="Facebook Link"></pre>
+                    </td>       
+            <td>
+                <!--Important as below 'method' is used otherwise name of saved will not show and enctype makes 
+                easy to encode symbols and name in input tag helps in saving behind the scene name can be seen
+                 while sending email .... placeholder is transparent name in textbox -->
+                <h1>Send a Message</h1>
+                <form action="mailto:info@educationsite.com" method="post" enctype="text/plain">
+                    <pre><label for="">First Name:</label>                       <label for="">Second Name:</label></pre>
+                   <pre><input type="text" name="firstname" placeholder="First Name">         <input type="text" name="secondname" placeholder="Second Name"></pre>
+                    <pre><input type="text"name="Emailid" placeholder="Email Address">         <input type="text"name="MobileNo" placeholder="Mobile No."></pre>
+                    <pre>  <textarea name="UserMessage" id="" cols="50" rows="5" placeholder="Type Your Message"></textarea> </pre>
+                    <pre>                        <input type="submit" value="Send"></pre>
+
+                </form>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
